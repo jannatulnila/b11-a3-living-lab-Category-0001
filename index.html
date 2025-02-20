@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamper Your Pet, Because They Deserve the Bes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- tailwind cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font awsome -->
+<script src="https://kit.fontawesome.com/71dce0c315.js" crossorigin="anonymous"></script>
+<style>
+   .font-sora {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+.font-adlam-display {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
+</style>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            "primary-clr": '#FFDC26',
+            "secondery-clr": '#111111',
+            "primary-bg": '#FFF9F4',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+   <header class="mb-12 lg:mb-24 " >
+    <!-- Nav section -->
+    <div class="bg-primary-bg">
+        <nav class="max-w-7xl mx-auto px-8 py-8 border border-secondery-clr flex items-center justify-between md:border-none lg:py-4">
+            <!-- logo -->
+             <div class="flex items-center gap-2">
+                <div>
+                    <img src="c1-assets/logo-header.png" alt="">
+                </div>
+                <h2 class="hidden md:block text-2xl text-secondery-clr">Browse<span class="text-primary-clr">4</span>Pets</h2>
+             </div>
+             <div class="items-center gap-20 lg:gap-24 hidden sm:flex">
+                <ul class="lg:flex items-center gap-4 lg:gap-6 hidden">
+                    <li><a class="text-lg hover:text-primary-clr" href="">Find a pet</a></li>
+                    <li><a class="text-lg hover:text-primary-clr" href="">Breeds</a></li>
+                    <li><a class="text-lg hover:text-primary-clr" href="">Contact us</a></li>
+                </ul>
+                <div class="hidden sm:flex items-center gap-2">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button class="btn border border-primary-clr">Login</button>
+                    <button class="btn bg-primary-clr">Register</button>
+                </div>
+             </div>
+             <div class="sm:hidden">
+                <i class="fa-solid fa-bars text-2xl"></i>
+             </div>
+        </nav>
+    </div>
+    
+   </header> 
+   <main>
+
+   </main>
+   <footer>
+    
+   </footer>
+</body>
+</html>
