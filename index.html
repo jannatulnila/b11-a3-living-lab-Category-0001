@@ -34,6 +34,8 @@
             "primary-clr": '#FFDC26',
             "secondery-clr": '#111111',
             "primary-bg": '#FFF9F4',
+            "secondary-bg": '#F9DF8A',
+
           }
         }
       }
@@ -43,7 +45,7 @@
 <body>
    <header class="mb-12 lg:mb-28" >
     <!-- Nav section -->
-    <div class="bg-primary-bg">
+     <div class="bg-primary-bg">
         <nav class="max-w-7xl mx-auto px-8 py-8 border border-secondery-clr flex items-center justify-between md:border-none lg:py-4">
             <!-- logo -->
              <div class="flex items-center gap-2">
@@ -69,10 +71,11 @@
                 <i class="fa-solid fa-bars text-2xl"></i>
              </div>
         </nav>
-    </div>
+     </div>
     <!-- banner -->
-     <section>
-      <div class="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-8">
+     <section class="items-center justify-center lg:py-40">
+      <div class="relative w-full max-w-7xl mx-auto px-6 lg:px-12 py-8 ">
+        <div class="flex flex-col lg:flex-row items-center">
           <div class="relative z-10 max-w-lg">
               <h1 class="text-2xl lg:text-5xl font-adlam-display">
                   Pamper Your Pet,<br> Because They Deserve <br> the Best
@@ -81,14 +84,87 @@
                   Shop now and make tails wag with joy!</p>
               <button class="btn bg-primary-clr font-sora">Find a pet</button>
           </div>
-          <div class="absolute right-20 top-20 w-3/4 max-w-4xl">
+          <div class="lg:absolute lg:right-20 lg:top-20 lg:w-3/4 max-w-4xl ">
               <img src="c1-assets/cat-big.png" alt="Cute cat" class="w-full">
           </div>
+        </div>
       </div>
     </section>
     </header> 
-   <main>
+   <main class="mb-12 lg:mb-28">
+    <!-- browse section -->
+    <section  class="  max-w-7xl mx-auto px-4 lg:px-8 py-8">
+      <h2 class="heading font-adlam-display mb-4">Browse By Categories</h1>
+      <!-- items card -->
+       <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4 lg:gap-5">
+        <!-- items 1 -->
+         <div class="pt-5 pb-6 md:py-8 flex flex-col items-center justify-center gap-4 md:gap-6 bg-secondary-bg rounded-lg md:rounded-xl">
+          <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center md:w-24 md:h-24">
+            <img src="c1-assets/dog-cartoon.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="font-adlam-display text-xl mb-1 md:mb-2">Dog</p>
+            <span class="text-xs md:text-sm">3 Items</span>
 
+          </div>          
+         </div>
+        <!-- items 2 -->
+         <div class="pt-5 pb-6 md:py-8 flex flex-col items-center justify-center gap-4 md:gap-6 bg-secondary-bg rounded-lg md:rounded-xl">
+          <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center md:w-24 md:h-24">
+            <img src="c1-assets/fish-cartoon.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="font-adlam-display text-xl mb-1 md:mb-2">Fish</p>
+            <span class="text-xs md:text-sm">3 Items</span>
+
+          </div>          
+         </div>
+        <!-- items 3-->
+         <div class="pt-5 pb-6 md:py-8 flex flex-col items-center justify-center gap-4 md:gap-6 bg-secondary-bg rounded-lg md:rounded-xl">
+          <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center md:w-24 md:h-24">
+            <img src="c1-assets/cat-cartoon.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="font-adlam-display text-xl mb-1 md:mb-2">Cat</p>
+            <span class="text-xs md:text-sm">3 Items</span>
+
+          </div>          
+         </div>
+        <!-- items 4 -->
+         <div class="pt-5 pb-6 md:py-8 flex flex-col items-center justify-center gap-4 md:gap-6 bg-secondary-bg rounded-lg md:rounded-xl">
+          <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center md:w-24 md:h-24">
+            <img src="c1-assets/bird-cartoon.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="font-adlam-display text-xl mb-1 md:mb-2">Birds</p>
+            <span class="text-xs md:text-sm">3 Items</span>
+
+          </div>          
+         </div>
+        <!-- items 5 -->
+         <div class="pt-5 pb-6 md:py-8 flex flex-col items-center justify-center gap-4 md:gap-6 bg-secondary-bg rounded-lg md:rounded-xl">
+          <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center md:w-24 md:h-24">
+            <img src="c1-assets/mouse-cartoon.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="font-adlam-display text-xl mb-1 md:mb-2">Small Pet</p>
+            <span class="text-xs md:text-sm">3 Items</span>
+
+          </div>          
+         </div>
+        <!-- items 6 -->
+         <div class="pt-5 pb-6 md:py-8 flex flex-col items-center justify-center gap-4 md:gap-6 bg-secondary-bg rounded-lg md:rounded-xl">
+          <div class="w-20 h-20 rounded-full bg-white flex items-center justify-center md:w-24 md:h-24">
+            <img src="c1-assets/rabbit-cartoon.png" alt="">
+          </div>
+          <div class="text-center">
+            <p class="font-adlam-display text-xl mb-1 md:mb-2">Rabit</p>
+            <span class="text-xs md:text-sm">3 Items</span>
+
+          </div>          
+         </div>
+       </div>
+    </section>
    </main>
    <footer>
     
