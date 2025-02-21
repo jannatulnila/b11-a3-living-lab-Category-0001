@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pamper Your Pet, Because They Deserve the Bes</title>
-    <style>
-      .dress-card-bg{
-        background: url(c1-assets/cute-pet-small.png) no-repeat,
-        linear-gradient(to right bottom, #F9DF8A, #F9DF8A) no-repeat;
-        background-position: right bottom, center;
-        background-size: 120px, cover;
-    }
+   
 
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +27,19 @@
   font-weight: 400;
   font-style: normal;
 } 
+.dress-card-bg{
+        background: url(c1-assets/cute-pet-small.png) no-repeat,
+        linear-gradient(to right bottom, #F9DF8A, #F9DF8A) no-repeat;
+        background-position: right bottom, center;
+        background-size: 120px, cover;
+    }
+.price-card-bg{
+        background: url(c1-assets/cute-pet-mid.png) no-repeat,
+        linear-gradient(to right bottom, #F9DF8A, #F9DF8A) no-repeat;
+        background-position: right bottom, center;
+        background-size: 120px, cover;
+    }
+
 </style>
 <script>
     tailwind.config = {
@@ -432,15 +439,34 @@
         </div>
       </div>
     </section>
-
-             
-
-           
-           
-               
-               
-
-      
+    <!-- price card -->
+    <section class="max-w-6xl mx-auto mt-10 px-4 mb-[250px] lg:mt-28 md:mb-[230px] lg:mb-[280px]">
+      <h2 class="text-2xl font-medium text-secondary-clr text-left mb-7 lg:text-3xl lg:mb-10">Everyday low Price</h2>
+       <div class="grid grid-cols-1 gap-5 grid-span-3 md:grid-cols-2 lg:grid-cols-[5fr_4fr] ">
+        <!-- price card 1-->
+       <div class="flex justify-between  bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl md:rounded-3xl">
+        <div class="my-5 ml-4 flex-1 md:my-10 md:ml-9 ">
+          <p class="text-xs md:text-xl-">Under Price</p>
+          <h3 class="text-xl text-black font-adlam-display">Pet Grooming Mitt</h3>
+          <p class="text-xl text-white font-adlam-display">(Easy Hair Removal)</p>
+          <h2 class="text-3xl font-adlam-display">$7.99</h2>
+        </div>
+        <div class="flex-1 self-end mb-1 mr-3 md:max-w-40">
+          <img class="w-[115px] h-[150px] block ml-auto md:w-full md:h-auto" src="c1-assets/cute-pet-mid.png" alt="">
+        </div>
+       </div>
+       <!--price-card 2  -->
+       <div class="flex justify-between bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] rounded-3xl">
+        <div class="mt-2.5 mb-5 ml-4  flex-1 md:my-5 md:ml-6">
+          <p  class="text-sm">T-Shirt for Dogs</p>
+          <h2 class="text-3xl font-adlam-display">$7.99</h2>
+        </div>
+        <div class="flex-1 self-end mb-1 mr-3 md:max-w-40">
+          <img class="w-[100px] h-[120px] blockml-auto md:w-full md:h-auto" src="c1-assets/cute-dog-mid.png" alt="">
+        </div>
+       </div>
+      </div>
+    </section>
     </main>
    <footer>
     
