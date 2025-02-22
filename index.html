@@ -33,12 +33,6 @@
         background-position: right bottom, center;
         background-size: 120px, cover;
     }
-.price-card-bg{
-        background: url(c1-assets/cute-pet-mid.png) no-repeat,
-        linear-gradient(to right bottom, #F9DF8A, #F9DF8A) no-repeat;
-        background-position: right bottom, center;
-        background-size: 120px, cover;
-    }
 
 </style>
 <script>
@@ -440,7 +434,7 @@
       </div>
     </section>
     <!-- price card -->
-    <section class="max-w-6xl mx-auto mt-10 px-4 mb-[250px] lg:mt-28 md:mb-[230px] lg:mb-[280px]">
+    <section class="max-w-6xl mx-auto mt-10 px-4 mb-[250px] lg:mt-28 md:mb-[230px] lg:mb-[300px]">
       <h2 class="text-2xl font-medium text-secondary-clr text-left mb-7 lg:text-3xl lg:mb-10">Everyday low Price</h2>
        <div class="grid grid-cols-1 gap-5 grid-span-3 md:grid-cols-2 lg:grid-cols-[5fr_4fr] ">
         <!-- price card 1-->
@@ -468,8 +462,51 @@
       </div>
     </section>
     </main>
-   <footer>
-    
+   <footer class="bg-secondary-bg px-6 pt-[265px] pb-10 md:pt-52 md:pb-24 lg:pt-[350px] lg:pb-28 relative">
+     <section class="max-w-6xl w-[100%] absolute left-1/2 -translate-x-1/2 top-[-700px] lg:mx-auto md:top-[-35%]">
+      <div class="grid grid-cols-1 items-center gap-5 bg-primary-bg rounded-2xl mx-4 pt-7 pb-9 lg:py-12 md:grid-cols-[2fr_4fr] lg:gap-24 lg:pl-20">
+        <div class="pr-12 pl-14 md:pr-6 md:pl-7 lg:pr-0 lg:pl-0">
+          <img class="w-full sm:w-[250px] mx-auto md:w-full" src="c1-assets/cute-pet-small.png" alt="">
+
+        </div>
+        <div class="text-center md:text-left px-7 lg:px-0">
+          <h2 class="text-xl text-secondary-clr lg:text-3xl font-medium lg:text-secondary-bg Get font-adlam-display ">Get Pawsome News!</h2>
+          <p class="text-base lg:text-lg  font-sora">Exclusive training tips, ticks, product deals and more.</p>
+          <form action="">
+            <input class="px-2 py-[6px] lg:p-4 w-full mt-5 mb-3 rounded-lg bg-whitelg:w-[400px] lg:my-8 lg:rounded-md text-sm font-sora outline-none text-gray-400" placeholder="Enter Email...." type="email" name="" id="">
+            <button class="btn bg-primary-clr font-sora">Subscribe</button>
+          </form>
+        </div>
+      </div>
+     </section> 
+     <!-- footer action -->
+     <div class="max-w-6xl mx-auto flex flex-col justify-between gap-8 text-white md:flex-row md:items-end">
+      <div>
+       <div class="mb-6">
+        <div>
+          <img class="filter: grayscale-45%" src="c1-assets/logo-header.png" alt="">
+        </div>
+        <h2 class=" md:block text-2xl text-black font-adlam-display font-ad">Browse<span class="text-primary-clr">4</span>Pets</h2>
+        </div>
+        <p class="text-base leading-5 text-left max-w-[360px] md:text-lg font-sora text-black">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+     </div>
+     <div>
+      <ul class="flex flex-col gap-4 md:gap-7 text-secondary-clr">
+        <li><a class="text-base md:text-lg font-sora text-black" href="">Find a pet</a></li>
+        <li><a class="text-base md:text-lg font-sora text-black" href="">Breeds</a></li>
+        <li><a class="text-base md:text-lg font-sora text-black" href="">Contact us</a></li>
+     </ul>
+    </div>
+    <div>
+      <h4 class="text-sm md:text-base text-black my-4">Follow Us</h4>
+      <div class="flex items-center gap-5">
+        <a class="text-xl text-black" href=""><i class="fa-brands fa-facebook"></i></a>
+        <a class="text-xl text-black" href=""><i class="fa-brands fa-instagram"></i></a>
+        <a class="text-xl text-black" href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a class="text-xl text-black" href=""><i class="fa-brands fa-youtube"></i></a>
+       </div>
+     </div>
+     </div>    
    </footer>
 </body>
 </html>
